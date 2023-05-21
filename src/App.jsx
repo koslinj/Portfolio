@@ -1,21 +1,17 @@
+import AboutMe from './components/AboutMe';
 import Navbar from './components/Navbar'
+import Projects from './components/Projects';
+import TechStack from './components/TechStack';
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <section id="aboutme">
-        <div className='grad h-52 mt-24'>
-          <h2>About me:</h2>
-        </div>
-      </section>
-      <section id="about">
-        <div className='grad h-52 mt-24'>
-          ABOUT
-        </div>
-      </section>
+      <AboutMe />
+      <TechStack />
+      <Projects />
       <section id="contact">
-        <div className='grad h-52 mt-24'>
+        <div className='grad h-52 mt-24 mb-96'>
           CONTACT
         </div>
       </section>

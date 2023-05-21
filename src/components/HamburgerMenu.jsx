@@ -3,7 +3,7 @@ import React from 'react'
 function HamburgerMenu({ isMenuOpen }) {
     return (
         <svg
-            className="h-10 w-10"
+            className="h-9 w-9"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
