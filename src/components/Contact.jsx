@@ -66,7 +66,7 @@ function Contact() {
                         type='submit'
                         value='Send'
                         className='mt-6 text-3xl rounded-xl bg-gradient-to-r from-pink-400 to-violet-400 py-6 px-12 shadow-1 text-black font-title font-bold italic tracking-widest hover:scale-118 hover:rotate-3 transition-all duration-500' />
-                    <h1 className={`${info ? (success ? 'opacity-100 scale-100 text-green-500' : 'opacity-100 scale-100 text-red-500') : ''} scale-50 opacity-0 text-red-500 text-3xl mt-8 font-title tracking-widest transition-all duration-500`}>{info}</h1>
+                    <h1 className={`${info ? (success ? 'opacity-100 scale-100 text-green-500' : 'opacity-100 scale-100 text-red-500') : 'scale-50 opacity-0'} text-3xl mt-8 font-title tracking-widest transition-all duration-500`}>{info}</h1>
                 </form>
             </div>
         </section>
