@@ -7,7 +7,7 @@ import proj3 from '../assets/proj3.png'
 function Projects() {
     return (
         <section id="projects">
-            <div className='grad min-h-52 mt-24 rounded-tr-[40px] rounded-bl-[40px] p-8 shadow-2'>
+            <div className='grad min-h-52 mt-24 rounded-tr-[40px] rounded-bl-[40px] p-4 shadow-2'>
                 <a href='https://github.com/koslinj' target='_blank' rel='noreferrer noopener'>
                     <div className='absolute sm:right-10 right-6 hover:scale-125 transition-all duration-300 cursor-pointer flex flex-col items-center'>
                         <img src={gitHubLogo} className='sm:w-14 w-10'></img>

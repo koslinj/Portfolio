@@ -3,7 +3,7 @@ import React from 'react'
 function AboutMe() {
     return (
         <section id="aboutme">
-            <div className='grad min-h-52 mt-24 rounded-tr-[40px] rounded-bl-[40px] p-4 sm:p-8 shadow-2 flex justify-center items-center flex-wrap gap-8'>
+            <div className='grad min-h-52 mt-24 rounded-tr-[40px] rounded-bl-[40px] p-4 shadow-2 flex justify-center items-center flex-wrap gap-8'>
                 <div className='lg:basis-[30%] flex justify-center items-center'>
                     <h2 className='title static text-5xl'>About<br />me</h2>
                 </div>
