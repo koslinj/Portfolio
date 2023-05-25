@@ -26,7 +26,7 @@ function TechStack() {
                     <div className='flex flex-wrap gap-8 justify-center'>
                         {mainTechLogos.map((item, i) => (
                             <div key={i} className='hover:scale-118 transition-all duration-500 rounded-xl p-4 flex justify-center align-center bg-slate-200 shadow-1'>
-                                <img src={item} className='h-20 overflow-visible' />
+                                <img src={item} className='h-32 overflow-visible' />
                             </div>
                         ))}
                     </div>
@@ -34,7 +34,7 @@ function TechStack() {
                     <div className='flex flex-wrap gap-8 justify-center'>
                         {sideTechLogos.map((item, i) => (
                             <div key={i} className='hover:scale-118 transition-all duration-500 rounded-xl p-2 flex justify-center align-center bg-slate-200 shadow-1'>
-                                <img src={item} className='h-14 overflow-visible' />
+                                <img src={item} className='h-20 overflow-visible' />
                             </div>
                         ))}
                     </div>

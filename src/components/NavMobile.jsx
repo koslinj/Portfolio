@@ -33,19 +33,30 @@ function NavMobile() {
                 <HamburgerMenu isMenuOpen={isMenuOpen} />
             </button>
             <h2 className='title'>Jan Koślin</h2>
-            <ul className={`transition-all duration-500 ${isMenuOpen ? 'mt-12 mb-2 flex flex-col justify-around items-center h-44' : 'h-14'}`}>
-                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-40'}`}>
+            <ul className={`transition-all duration-500 ${isMenuOpen ? 'mt-12 mb-2 flex flex-col justify-around items-center h-60' : 'h-14'}`}>
+            <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-48'}`}>
                     <Link
-                        to="aboutme"
+                        to="home"
                         spy={true}
                         smooth={true}
                         offset={-120}
                         duration={500}
                     >
+                        <button onClick={hideMenu}>Home</button>
+                    </Link>
+                </li>
+                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-48'}`}>
+                    <Link
+                        to="aboutme"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}
+                    >
                         <button onClick={hideMenu}>About me</button>
                     </Link>
                 </li>
-                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-40'}`}>
+                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-48'}`}>
                     <Link
                         to="hobbies"
                         spy={true}
@@ -56,7 +67,7 @@ function NavMobile() {
                         <button onClick={hideMenu}>Hobbies</button>
                     </Link>
                 </li>
-                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-40'}`}>
+                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-48'}`}>
                     <Link
                         to="techstack"
                         spy={true}
@@ -67,7 +78,7 @@ function NavMobile() {
                         <button onClick={hideMenu}>Tech stack</button>
                     </Link>
                 </li>
-                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-40'}`}>
+                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-48'}`}>
                     <Link
                         to="projects"
                         spy={true}
@@ -78,7 +89,7 @@ function NavMobile() {
                         <button onClick={hideMenu}>Projects</button>
                     </Link>
                 </li>
-                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-40'}`}>
+                <li className={`nav-elem ${isMenuOpen ? 'translate-y-0 hover:scale-125' : '-translate-y-48'}`}>
                     <Link
                         to="contact"
                         spy={true}
