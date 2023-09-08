@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
 import developer from '../assets/developer.png'
 import { useLayoutEffect } from "react";
-import { gsap } from "gsap-trial";
-import { Power3 } from 'gsap-trial';
+import { gsap } from "gsap";
+import { Power3 } from 'gsap';
 
 function Home() {
     let scope = useRef(null)
