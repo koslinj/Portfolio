@@ -36,18 +36,18 @@ function Hobbies() {
                 .from('.little-heading', {
                     x: -800,
                     opacity: 0,
-                    stagger: 0.3,
-                }, "-=0.6")
+                    stagger: 0.2,
+                }, "-=0.7")
                 .from('.description', {
                     x: -800,
                     opacity: 0,
-                    stagger: 0.3,
-                }, "-=0.6")
+                    stagger: 0.2,
+                }, "-=0.7")
                 .from('.logo', {
                     opacity: 0,
                     duration: 1,
-                    stagger: 0.3,
-                }, "-=0.6")
+                    stagger: 0.2,
+                }, "-=0.7")
         }, scope); // <- Scope!
         return () => ctx.revert(); // <- Cleanup!
     }, []);

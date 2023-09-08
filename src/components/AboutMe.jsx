@@ -36,7 +36,7 @@ function AboutMe() {
                     <div className='lg:basis-[30%] flex justify-center items-center'>
                         <h2 className='title static text-5xl'>About<br />me</h2>
                     </div>
-                    <p className='lg:basis-[64%] text-lg leading-10 italic'>
+                    <div className='lg:basis-[64%] text-lg leading-10 italic'>
                         <div className='overflow-hidden'>
                             <p className='text-line'>My name is Jan and I am 21 years old.<br /></p>
                         </div>
@@ -52,8 +52,7 @@ function AboutMe() {
                         <div className='overflow-hidden'>
                             <p className='text-line'>I can surely admit that I am determined in achieving my goals.</p>
                         </div>
-
-                    </p>
+                    </div>
                 </div>
             </section>
         </div>
