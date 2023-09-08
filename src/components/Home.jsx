@@ -8,7 +8,7 @@ function Home() {
     let scope = useRef(null)
     useLayoutEffect(() => {
         const ctx = gsap.context((self) => {
-            let tl = gsap.timeline({delay: 0.5, defaults: {duration: 1.5, ease: Power3.easeOut}})
+            let tl = gsap.timeline({delay: 0.9, defaults: {duration: 1.5, ease: Power3.easeOut}})
             tl.from('.home-container', {
                 x: 2000,
                 opacity: 0,

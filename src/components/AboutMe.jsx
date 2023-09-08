@@ -8,7 +8,7 @@ function AboutMe() {
 
     useLayoutEffect(() => {
         const ctx = gsap.context((self) => {
-            let tl = gsap.timeline({ delay: 0.8, defaults: { duration: 1.5, ease: Power3.easeOut } })
+            let tl = gsap.timeline({ delay: 1.7, defaults: { duration: 1.5, ease: Power3.easeOut } })
             tl.from('.aboutme-container', {
                 x: -1200,
                 opacity: 0,
@@ -25,11 +25,6 @@ function AboutMe() {
                     opacity: 0,
                     stagger: 0.4
                 }, 0.6)
-            // .from('.text2', {
-            //     y: 150,
-            //     duration: 1,
-            //     ease: "back.out(1.5)"
-            // }, "-=0.5");
         }, scope); // <- Scope!
         return () => ctx.revert(); // <- Cleanup!
     }, []);
