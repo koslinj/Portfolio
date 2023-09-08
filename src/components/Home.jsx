@@ -8,9 +8,9 @@ function Home() {
     let scope = useRef(null)
     useLayoutEffect(() => {
         const ctx = gsap.context((self) => {
-            let tl = gsap.timeline({delay: 0.2, defaults: {duration: 1.5, ease: Power3.easeOut}})
+            let tl = gsap.timeline({delay: 0.5, defaults: {duration: 1.5, ease: Power3.easeOut}})
             tl.from('.home-container', {
-                x: 1500,
+                x: 2000,
                 opacity: 0,
             })
             .from('.image', {
@@ -21,12 +21,10 @@ function Home() {
             }, 0.2)
             .from('.text1', {
                 y: 150,
-                duration: 1,
                 ease: "back.out(1.5)"
             },'-=1')
             .from('.text2', {
                 y: 150,
-                duration: 1,
                 ease: "back.out(1.5)"
             }, "-=0.5");
         }, scope); // <- Scope!
