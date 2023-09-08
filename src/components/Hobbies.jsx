@@ -22,10 +22,9 @@ function Hobbies() {
                 defaults: { duration: 0.9 },
                 scrollTrigger: {
                     trigger: '.hobbies-container',
-                    start: 'center 92%',
+                    start: 'center 85%',
                     end: 'center 50%',
                     toggleActions: 'restart none none reverse',
-                    markers: true
                 },
             })
             tl.from('.hobbies-container', {
