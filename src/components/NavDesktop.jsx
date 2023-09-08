@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 function NavDesktop() {
     return (
-        <nav className='hidden lg:block fixed z-10 top-0 left-0 bg-gradient-to-b from-violet-950 to to-slate-800 w-full rounded-b-xl shadow-1'>
+        <nav className='navbar-container hidden lg:block fixed z-10 top-0 left-0 bg-gradient-to-b from-violet-950 to to-slate-800 w-full rounded-b-xl shadow-1'>
             <h2 className='title'>Jan Koślin</h2>
             <ul className='flex flex-row justify-end items-center gap-12 p-4 h-14'>
             <li className='hover:scale-125 nav-elem'>
