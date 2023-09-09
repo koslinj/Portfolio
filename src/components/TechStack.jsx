@@ -33,7 +33,6 @@ function TechStack() {
                     start: 'top 50%',
                     end: 'center 20%',
                     toggleActions: 'restart none none reverse',
-                    markers: true
                 },
             })
             tl.from('.techstack-container', {
