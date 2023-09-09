@@ -24,7 +24,7 @@ function Hobbies() {
                     trigger: '.hobbies-container',
                     start: 'center 85%',
                     end: 'center 50%',
-                    toggleActions: 'restart none none reverse',
+                    toggleActions: 'play none none reverse',
                 },
             })
             tl.from('.hobbies-container', {

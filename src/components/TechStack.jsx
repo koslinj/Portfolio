@@ -32,7 +32,7 @@ function TechStack() {
                     trigger: '.techstack-container',
                     start: 'top 50%',
                     end: 'center 20%',
-                    toggleActions: 'restart none none reverse',
+                    toggleActions: 'play none none reverse',
                 },
             })
             tl.from('.techstack-container', {
