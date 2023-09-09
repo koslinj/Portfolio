@@ -32,7 +32,7 @@ function NavDesktop() {
                             spy={true}
                             smooth={true}
                             offset={-150}
-                            duration={500}
+                            duration={1500}
                         >
                             Home
                         </Link>
@@ -43,7 +43,7 @@ function NavDesktop() {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}
+                            duration={1500}
                         >
                             About me
                         </Link>
@@ -54,7 +54,7 @@ function NavDesktop() {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}
+                            duration={1500}
                         >
                             Hobbies
                         </Link>
@@ -65,7 +65,7 @@ function NavDesktop() {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}
+                            duration={1500}
                         >
                             Tech stack
                         </Link>
@@ -76,7 +76,7 @@ function NavDesktop() {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}
+                            duration={1500}
                         >
                             Projects
                         </Link>
@@ -87,7 +87,7 @@ function NavDesktop() {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}
+                            duration={1500}
                         >
                             Contact
                         </Link>
