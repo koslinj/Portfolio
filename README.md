@@ -21,11 +21,11 @@ This is a portfolio website built using React and GSAP (GreenSock Animation Plat
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/koslinj/Portfolio.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd portfolio-website
+   cd Portfolio
    ```
 3. **Install dependencies:**
    ```bash
