@@ -38,7 +38,7 @@ function AboutMe() {
                     </div>
                     <div className='lg:basis-[64%] text-lg leading-10 italic'>
                         <div className='overflow-hidden'>
-                            <p className='text-line'>My name is Jan and I am 21 years old.<br /></p>
+                            <p className='text-line'>My name is Jan and I am 22 years old.<br /></p>
                         </div>
                         <div className='overflow-hidden'>
                             <p className='text-line'>Currently I am living in Lodz in Poland but i am looking forward to move to Warsaw.<br /></p>
