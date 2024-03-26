@@ -10,6 +10,8 @@ import mongoDBLogo from '../assets/MongoDB.png'
 import nextLogo from '../assets/next.png'
 import tailwindLogo from '../assets/tailwind.png'
 import expressLogo from '../assets/express.png'
+import expoLogo from '../assets/expo.png'
+import androidLogo from '../assets/android.svg'
 import React, { useRef } from 'react'
 import { useLayoutEffect } from "react";
 import { gsap } from "gsap";
@@ -18,8 +20,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const mainTechLogos = [nextLogo, reactLogo, tailwindLogo, expressLogo, javaLogo, mysqlLogo];
-const sideTechLogos = [cLogo, cplusplusLogo, mongoDBLogo, figmaLogo, javaFXLogo, springLogo];
+const mainTechLogos = [nextLogo, reactLogo, tailwindLogo, expressLogo, javaLogo, springLogo, androidLogo, expoLogo, mysqlLogo];
+const sideTechLogos = [cLogo, cplusplusLogo, mongoDBLogo, figmaLogo, javaFXLogo];
 
 function TechStack() {
     let scope = useRef(null)
